@@ -1,42 +1,60 @@
 {
-  "profile": {
-    "name": "Faik Yılmaz",
-    "title": "Frontend Developer",
-    "bio": "I build accessible, pixel-perfect, and performant web experiences.",
-    "avatar": "https://ui-avatars.com/api/?name=Faik+Yilmaz&background=0D8ABC&color=fff&size=200"
-  },
-  "projects": [
-    {
-      "id": 1,
-      "title": "E-Commerce Dashboard",
-      "description": "A comprehensive dashboard for managing online stores, featuring real-time data visualization and inventory management.",
-      "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=E-Commerce",
-      "tags": ["React", "Chart.js", "Tailwind"],
-      "link": "#"
+    "profile": {
+        "name": "Faik Çelik",
+        "title": "Frontend Geliştirici",
+        "bio": "Merhaba! Ben Faik. Web teknolojilerine olan tutkumla, kullanıcı dostu ve estetik arayüzler tasarlıyorum. Modern web standartlarına uygun, erişilebilir ve performanslı kod yazmaya özen gösteriyorum. Sürekli öğrenme ve kendimi geliştirme odaklıyım.",
+        "avatar": "https://ui-avatars.com/api/?name=Faik+Celik&background=0D8ABC&color=fff&size=200"
     },
-    {
-      "id": 2,
-      "title": "Task Management App",
-      "description": "A productivity tool that helps teams organize tasks, set deadlines, and track progress efficiently.",
-      "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=Task+App",
-      "tags": ["Vue.js", "Firebase", "SCSS"],
-      "link": "#"
-    },
-    {
-      "id": 3,
-      "title": "Weather Forecast API",
-      "description": "A weather application that provides accurate forecasts based on user location using the OpenWeatherMap API.",
-      "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=Weather+App",
-      "tags": ["JavaScript", "API", "CSS3"],
-      "link": "#"
+    "projects": [
+        {
+            "id": 1,
+            "title": "E-Ticaret Yönetim Paneli",
+            "description": "Online mağazalar için geliştirilmiş kapsamlı bir yönetim paneli. Bu proje sayesinde mağaza sahipleri stok takibi yapabilir, siparişleri yönetebilir ve satış grafiklerini anlık olarak izleyebilir. React ve Chart.js kullanılarak veri görselleştirme ön planda tutulmuştur.",
+            "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=E-Ticaret+Paneli",
+            "tags": [
+                "React",
+                "Chart.js",
+                "Tailwind CSS"
+            ],
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "title": "Görev ve Proje Takip Uygulaması",
+            "description": "Takımların iş birliği içinde çalışmasını sağlayan, sürükle-bırak özellikli bir görev yönetim aracı. Kullanıcılar görev atayabilir, teslim tarihlerini belirleyebilir ve proje ilerlemesini Kanban panosu üzerinden takip edebilir.",
+            "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=Gorev+Takip",
+            "tags": [
+                "Vue.js",
+                "Firebase",
+                "SCSS"
+            ],
+            "link": "#"
+        },
+        {
+            "id": 3,
+            "title": "Hava Durumu ve Tahmin API",
+            "description": "Kullanıcının konumuna göre anlık hava durumu verilerini ve 5 günlük tahmini sunan bir web uygulaması. OpenWeatherMap API entegrasyonu ile dünyanın her yerindeki şehirlerin hava durumu verilerine hızlıca ulaşılabilir.",
+            "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=Hava+Durumu",
+            "tags": [
+                "JavaScript",
+                "REST API",
+                "CSS3"
+            ],
+            "link": "#"
+        }
+    ],
+    "contact": {
+        "email": "faik.celik@example.com",
+        "phone": "+90 555 123 45 67",
+        "social": [
+            {
+                "platform": "GitHub",
+                "url": "https://github.com"
+            },
+            {
+                "platform": "LinkedIn",
+                "url": "https://linkedin.com"
+            }
+        ]
     }
-  ],
-  "contact": {
-    "email": "faik.yilmaz@example.com",
-    "phone": "+90 555 123 45 67",
-    "social": [
-      { "platform": "GitHub", "url": "https://github.com" },
-      { "platform": "LinkedIn", "url": "https://linkedin.com" }
-    ]
-  }
 }

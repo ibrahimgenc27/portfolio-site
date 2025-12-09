@@ -131,9 +131,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="about-content">
                         <p>${bio}</p>
                         <p style="margin-top: 1rem;">
-                            Sezgisel ve dinamik kullanıcı deneyimleri yaratma konusunda tutkuluyum. 
-                            HTML, CSS ve JavaScript konusundaki güçlü temelimle, gerçek dünya sorunlarını 
-                            çözen uygulamalar geliştirmek için çalışıyorum.
+                            Web geliştirme dünyasına olan ilgim, kullanıcıların hayatını kolaylaştıran dijital çözümler üretme isteğimle başladı.
+                            HTML, CSS ve JavaScript gibi temel teknolojilerin yanı sıra, modern frontend framework'leri ile de projeler geliştiriyorum.
+                            Kod kalitesine, performansa ve kullanıcı deneyimine (UX) büyük önem veriyorum.
+                        </p>
+                        <p style="margin-top: 1rem;">
+                            Boş zamanlarımda yeni teknolojileri araştırmayı, açık kaynak projelere katkıda bulunmayı ve teknoloji bloglarını takip etmeyi seviyorum.
                         </p>
                     </div>
                 </div>
