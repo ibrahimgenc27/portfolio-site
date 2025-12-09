@@ -9,7 +9,8 @@
         {
             "id": 1,
             "title": "E-Ticaret Yönetim Paneli",
-            "description": "Online mağazalar için geliştirilmiş kapsamlı bir yönetim paneli. Bu proje sayesinde mağaza sahipleri stok takibi yapabilir, siparişleri yönetebilir ve satış grafiklerini anlık olarak izleyebilir. React ve Chart.js kullanılarak veri görselleştirme ön planda tutulmuştur.",
+            "description": "Online mağazalar için geliştirilmiş kapsamlı bir yönetim paneli.",
+            "details": "Bu proje, mağaza sahiplerinin işlerini kolaylaştırmak için tasarlanmıştır. Stok takibi, sipariş yönetimi, müşteri analizi ve satış raporları gibi özellikler içerir. React ve Chart.js kullanılarak veriler görselleştirilmiş, Tailwind CSS ile modern bir arayüz sağlanmıştır. Ayrıca, kullanıcı yetkilendirme sistemi ile güvenli bir yapı sunar.",
             "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=E-Ticaret+Paneli",
             "tags": [
                 "React",
@@ -21,7 +22,8 @@
         {
             "id": 2,
             "title": "Görev ve Proje Takip Uygulaması",
-            "description": "Takımların iş birliği içinde çalışmasını sağlayan, sürükle-bırak özellikli bir görev yönetim aracı. Kullanıcılar görev atayabilir, teslim tarihlerini belirleyebilir ve proje ilerlemesini Kanban panosu üzerinden takip edebilir.",
+            "description": "Takımların iş birliği içinde çalışmasını sağlayan görev yönetim aracı.",
+            "details": "Takım içi iletişimi ve verimliliği artırmayı hedefleyen bu uygulama, Kanban panosu mantığıyla çalışır. Kullanıcılar görev oluşturabilir, atayabilir, önceliklendirebilir ve sürükle-bırak yöntemiyle durumlarını güncelleyebilir. Firebase ile gerçek zamanlı veri senkronizasyonu sağlanmıştır.",
             "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=Gorev+Takip",
             "tags": [
                 "Vue.js",
@@ -33,7 +35,8 @@
         {
             "id": 3,
             "title": "Hava Durumu ve Tahmin API",
-            "description": "Kullanıcının konumuna göre anlık hava durumu verilerini ve 5 günlük tahmini sunan bir web uygulaması. OpenWeatherMap API entegrasyonu ile dünyanın her yerindeki şehirlerin hava durumu verilerine hızlıca ulaşılabilir.",
+            "description": "Anlık hava durumu ve 5 günlük tahmin sunan web uygulaması.",
+            "details": "OpenWeatherMap API kullanılarak geliştirilen bu uygulama, kullanıcının konumuna veya aradığı şehre göre detaylı hava durumu bilgisi sunar. Sıcaklık, nem, rüzgar hızı gibi verilerin yanı sıra, gelecek günler için tahminler de grafiksel olarak gösterilir. Responsive tasarımı ile mobilde de rahatça kullanılabilir.",
             "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=Hava+Durumu",
             "tags": [
                 "JavaScript",

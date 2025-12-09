@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!contentData.projects) return;
 
         const projectsHtml = contentData.projects.map(project => `
-            <article class="project-card">
+            <article class="project-card" id="project-${project.id}">
                 <img src="${project.image}" alt="${project.title}" class="project-image">
                 <div class="project-info">
                     <h3 class="project-title">${project.title}</h3>
@@ -156,10 +156,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
                     </div>
                     <p class="project-desc">${project.description}</p>
-                    <a href="${project.link}" class="project-link">
+                    <div class="project-details" style="display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+                        <p>${project.details}</p>
+                    </div>
+                    <button class="project-link btn-inspect" data-id="${project.id}" style="background:none; border:none; cursor:pointer; font-size:1rem; padding:0; margin-top:1rem;">
                         Projeyi İncele 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                    </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </button>
                 </div>
             </article>
         `).join('');
@@ -174,6 +177,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </section>
         `;
+
+        // İncele butonlarına tıklama olayı ekle
+        document.querySelectorAll('.btn-inspect').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const id = e.currentTarget.getAttribute('data-id');
+                const card = document.getElementById(`project-${id}`);
+                const details = card.querySelector('.project-details');
+                const icon = e.currentTarget.querySelector('svg');
+
+                if (details.style.display === 'none') {
+                    details.style.display = 'block';
+                    e.currentTarget.innerHTML = `Kapat <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`;
+                } else {
+                    details.style.display = 'none';
+                    e.currentTarget.innerHTML = `Projeyi İncele <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>`;
+                }
+            });
+        });
     }
 
     function renderContact() {
