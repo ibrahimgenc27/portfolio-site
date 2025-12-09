@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Faik Yılmaz",
+    "title": "Frontend Developer",
+    "bio": "I build accessible, pixel-perfect, and performant web experiences.",
+    "avatar": "https://ui-avatars.com/api/?name=Faik+Yilmaz&background=0D8ABC&color=fff&size=200"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Dashboard",
+      "description": "A comprehensive dashboard for managing online stores, featuring real-time data visualization and inventory management.",
+      "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=E-Commerce",
+      "tags": ["React", "Chart.js", "Tailwind"],
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A productivity tool that helps teams organize tasks, set deadlines, and track progress efficiently.",
+      "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=Task+App",
+      "tags": ["Vue.js", "Firebase", "SCSS"],
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Weather Forecast API",
+      "description": "A weather application that provides accurate forecasts based on user location using the OpenWeatherMap API.",
+      "image": "https://placehold.co/600x400/1a1a1a/ffffff?text=Weather+App",
+      "tags": ["JavaScript", "API", "CSS3"],
+      "link": "#"
+    }
+  ],
+  "contact": {
+    "email": "faik.yilmaz@example.com",
+    "phone": "+90 555 123 45 67",
+    "social": [
+      { "platform": "GitHub", "url": "https://github.com" },
+      { "platform": "LinkedIn", "url": "https://linkedin.com" }
+    ]
+  }
+}
